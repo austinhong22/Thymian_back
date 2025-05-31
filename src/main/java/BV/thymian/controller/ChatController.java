@@ -47,8 +47,4 @@ public class ChatController {
         return ResponseEntity.ok().body(chatService.downloadImage(url));
     }
 
-    @GetMapping("/")
-    public ResponseEntity<?> healthCheck() {
-        return ResponseEntity.ok("Spring Boot 서버가 정상 작동중입니다.");
-    }
 }
