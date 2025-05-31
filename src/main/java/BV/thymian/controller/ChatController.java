@@ -11,7 +11,6 @@ import java.io.IOException;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
 public class ChatController {
 
     private final ChatService chatService;
