@@ -89,4 +89,25 @@ public class NftService {
         }
         nftRepository.deleteById(idx);
     }
+
+    /**
+     * 특정 유저(idx)로 연관된 NFT 목록을 모두 조회하여 DTO 리스트로 반환
+     */
+    @Transactional(readOnly = true)
+    public List<NftResponseDto> getNftsByUserId(Long userIdx) {
+        List<Nft> nftList = nftRepository.findAllByUser_Idx(userIdx);
+
+        return nftList.stream()
+                .map(nft -> NftResponseDto.builder()
+                        .idx(nft.getIdx())
+                        .userAddress(nft.getUserAddress())
+                        .imageLink(nft.getImageLink())
+                        .imageName(nft.getImageName())
+                        .description(nft.getDescription())
+                        .price(nft.getPrice())
+                        .tags(nft.getTags())
+                        .category(nft.getCategory())
+                        .build())
+                .collect(Collectors.toList());
+    }
 }

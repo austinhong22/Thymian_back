@@ -44,4 +44,14 @@ public class NftController {
         nftService.deleteNft(idx);
         return ResponseEntity.noContent().build();
     }
+
+    /**
+     * 특정 유저 아이디(userIdx)를 기준으로 연관된 NFT 전부 조회
+     * 요청 예시: GET /api/nfts/user/1
+     */
+    @GetMapping("/user/{userIdx}")
+    public ResponseEntity<List<NftResponseDto>> getNftsByUser(@PathVariable("userIdx") Long userIdx) {
+        List<NftResponseDto> nftList = nftService.getNftsByUserId(userIdx);
+        return ResponseEntity.ok(nftList);
+    }
 }
