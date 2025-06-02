@@ -19,6 +19,10 @@ public class Nft {
     @Column(name = "idx", nullable = false)
     private Long idx;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
+
     @Column(name = "user_address", nullable = false, length = 100)
     private String userAddress;
 
