@@ -38,7 +38,7 @@ jobs:
             set -e
 
             # (A) 배포 디렉터리로 이동 
-            cd ~/projects/thymian-backend
+            cd ~/Desktop/server/thymian
 
             # (B) Git 저장소가 없으면 clone, 있으면 최신 코드로 리셋
             if [ ! -d .git ]; then
