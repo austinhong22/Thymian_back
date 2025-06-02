@@ -22,7 +22,7 @@ jobs:
           host: ${{ secrets.MAC_HOST }}
           username: ${{ secrets.MAC_USER }}
           key: ${{ secrets.MAC_SSH_KEY }}
-          port: 22
+          port: 2200
           script: |
             # (A) 배포 스크립트 위치로 이동
             cd ~/scripts
