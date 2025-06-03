@@ -1,1 +1,84 @@
-# Thymian_back
+## 3rd Prize
+| Period            | Category   | Activity                                       | Description                                                   |
+|-------------------|------------|------------------------------------------------|----------------------------------------------------------------|
+| 2025.04           | Hackathon  | BuidlAI Hack 2025             | 3rd prize on Story track |
+
+
+# 🌟 FragranceForge AI
+
+![FragranceForge Banner](https://github.com/user-attachments/assets/2c812955-e7f4-496f-9e81-bc1b2b516320)
+
+## 🔮 Creating Your Unique Fragrance Identity
+
+**FragranceForge AI** is a revolutionary platform that empowers you to discover and own your personal signature scent through the power of AI and blockchain technology.
+
+## ✨ Key Features
+
+- **AI-Powered Perfume Creation**: Our sophisticated AI agent analyzes your preferences and suggests unique fragrance recipes tailored just for you
+- **Blockchain IP Registration**: Register your personalized fragrance as intellectual property on the Story Protocol blockchain
+- **Ownership Certification**: Receive a digital certificate of ownership for your unique scent formula
+- **Visual Representation**: Generate beautiful imagery representing your custom fragrance
+- **Detailed Descriptions**: Obtain poetic descriptions that capture the essence of your scent
+
+## 🧪 How It Works
+
+1. **Explore Preferences**: Interact with our AI agent to discover your scent preferences
+2. **Generate Recipe**: Receive a personalized fragrance recipe with precise ingredient proportions
+3. **Visualize**: Get a visual representation of your custom fragrance
+4. **Describe**: Review a detailed description capturing the mood and character of your scent
+5. **Register**: Secure your unique fragrance recipe as IP on the Story Protocol blockchain
+6. **Share & Celebrate**: Share your creation with friends or keep it as your exclusive signature
+
+## 🔗 Technology Stack
+
+- **Frontend**: React.js with TypeScript
+- **AI Engine**: Advanced natural language processing for fragrance recipe generation
+- **Blockchain**: Story Protocol for secure IP registration and ownership verification
+- **Security**: End-to-end encryption for all user data
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 🛡️ IP Protection
+
+Every fragrance created on our platform is registered as unique intellectual property on the Story Protocol blockchain, ensuring:
+
+- **Authenticity verification**
+- **Ownership proof**
+- **Recipe protection**
+- **Transparent attribution**
+
+## 🌐 Vision
+
+We believe everyone deserves a fragrance that is truly their own. By combining AI creativity with blockchain security, we're democratizing the world of perfumery and enabling a new era of personalized scent creation.
+
+## 📸 Screenshots
+
+[Coming Soon]
+
+## 🤝 Contributing
+
+We welcome contributions to the FragranceForge AI project! Please see our contributing guidelines for more information.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+*Craft your unique aromatic identity with FragranceForge AI - where technology meets artistry in the world of fragrance.*
+
+## How to fix crash issues
+
+npm install --legacy-peer-deps
+([Stable way] to install while ignoring crashes)
